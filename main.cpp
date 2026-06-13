@@ -825,7 +825,7 @@ int main(int argc, char** argv) {
             print_usage();
             return 0;
         } else if (arg == "--list" || arg == "--info" || arg == "--ls" || arg == "--send" ||
-                   arg == "--recv" || arg == "--rm" || arg == "--testmode-off" ||
+                   arg == "--recv" || arg == "--rm" || arg == "--disable-test" ||
                    arg == "--screenshot") {
             if (!action.empty()) {
                 fprintf(stderr,
