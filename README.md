@@ -13,6 +13,7 @@ Compile:
 make build
 ```
 The binary will be built in the `bin/` directory.
+
 Move to path:
 ```
 sudo make install
